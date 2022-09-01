@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+
+<h1>La condición if y else</h1>
+
+<script>
+
+	function saltarlinea() {
+		
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+	function imprimir(frase) {
+
+		document.write(frase);
+		saltarlinea();
+    }
+
+    var contrasenha = prompt("Entra con tu contraseña");
+
+    if(contrasenha == "micontrasenha123") {
+
+       alert("Acceso liberado!");
+
+    } else {
+
+       alert("Acceso negado!");
+    }
+
+    //¡Correcto! La condición if necesita recibir
+    //el resultado de una operación lógica dentro de los paréntesis.
+
+    if(contrasenha == "micontrasenha123") {
+
+        alert("Acceso liberado!");
+
+    } else {
+
+        alert("Acceso negado!");
+
+    }
+    
+    // Así como la instrucción if, la instrucción else también tiene su bloque 
+    //con las instrucciones que deseamos ejecutar si la condición if recibe false:
+
+
+</script>    
+
